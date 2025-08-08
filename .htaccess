@@ -1,0 +1,13 @@
+# Enable error reporting (remove in production)
+php_flag display_errors on
+php_value error_reporting "E_ALL"
+
+# Log errors
+php_flag log_errors on
+php_value error_log "error.log"
+
+# Rewrite rules
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
