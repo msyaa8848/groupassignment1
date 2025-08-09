@@ -158,7 +158,50 @@
                     <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="dropdown-content" id="studentDropdown">
-                    <?php include 'student-dropdown.php' ?>
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Tuition Fee Payment (ePayment)</h3>
+                        <p class="text-gray-600">Manage your tuition fee payments easily through our online portal.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Convenient online payment options</li>
+                            <li>Payment plans available</li>
+                            <li>Secure transactions</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Pay Now</a>
+                    </div>
+                    <br>
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Financial Aid</h3>
+                        <p class="text-gray-600">Apply for financial assistance to support your studies.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Scholarships and grants available</li>
+                            <li>Eligibility criteria apply</li>
+                            <li>Application deadlines must be met</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Apply Now</a>
+                    </div>
+                    <br>
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Fee Rate</h3>
+                        <p class="text-gray-600">Apply for financial assistance to support your studies.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Scholarships and grants available</li>
+                            <li>Eligibility criteria apply</li>
+                            <li>Application deadlines must be met</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Apply Now</a>
+                    </div>
+                    <br>
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Payment Method</h3>
+                        <p class="text-gray-600">Apply for financial assistance to support your studies.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Scholarships and grants available</li>
+                            <li>Eligibility criteria apply</li>
+                            <li>Application deadlines must be met</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Apply Now</a>
+                    </div>
+
                 </div>
             </div>
 
@@ -171,12 +214,54 @@
                 </div>
                 <div class="dropdown-content" id="vendorDropdown">
                     <div class="flex flex-col space-y-4">
-
+                        <div class="service-card p-4 border border-gray-200 rounded-lg">
+                            <h3 class="font-semibold text-blue-800">New Registration</h3>
+                            <p class="text-gray-600">Register your business to become a university vendor.</p>
+                            <ul class="list-disc list-inside text-gray-600 mb-4">
+                                <li>Complete the online registration form</li>
+                                <li>Provide necessary documentation</li>
+                                <li>Receive confirmation upon approval</li>
+                            </ul>
+                            <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Register Now</a>
+                        </div>
 <!-- SPACE OR DIVIDER -->
-                        <!-- <div class="flex flex-col space-y-4"></div> -->
+                        <div class="flex flex-col space-y-4"></div>
+                        <div class="service-card p-4 border border-gray-200 rounded-lg">
+                            <h3 class="font-semibold text-blue-800">Payment (Invoice)</h3>
+                            <p class="text-gray-600">Submit invoices for prompt payment processing.</p>
+                            <ul class="list-disc list-inside text-gray-600 mb-4">
+                                <li>Submit invoices through our portal</li>
+                                <li>Track payment status online</li>
+                                <li>Clear guidelines for submission</li>
+                            </ul>
+                            <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Submit Invoice</a>
+                        </div>
+<!-- SPACE OR DIVIDER -->
+                        <div class="flex flex-col space-y-4"></div>
+                        <div class="service-card p-4 border border-gray-200 rounded-lg">
+                            <h3 class="font-semibold text-blue-800">Tender</h3>
+                            <p class="text-gray-600">Submit invoices for prompt payment processing.</p>
+                            <ul class="list-disc list-inside text-gray-600 mb-4">
+                                <li>Submit invoices through our portal</li>
+                                <li>Track payment status online</li>
+                                <li>Clear guidelines for submission</li>
+                            </ul>
+                            <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Submit Invoice</a>
+                        </div>
+<!-- SPACE OR DIVIDER -->
+                        <div class="flex flex-col space-y-4"></div>
+                        <div class="service-card p-4 border border-gray-200 rounded-lg">
+                            <h3 class="font-semibold text-blue-800">View Payment</h3>
+                            <p class="text-gray-600">Submit invoices for prompt payment processing.</p>
+                            <ul class="list-disc list-inside text-gray-600 mb-4">
+                                <li>Submit invoices through our portal</li>
+                                <li>Track payment status online</li>
+                                <li>Clear guidelines for submission</li>
+                            </ul>
+                            <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Submit Invoice</a>
+                        </div>
 
 
-                        <?php include 'vendor-dropdown.php'  ?>
                     </div>
                 </div>
             </div>

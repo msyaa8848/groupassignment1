@@ -10,9 +10,9 @@
                     <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
                         <li><a href="index.php" class="hover:text-blue-200">Home</a></li>
-                        <li><a href="about.php" class="hover:text-blue-200">About</a></li>
                         <li><a href="announcement.php" class="hover:text-blue-200">Announcements</a></li>
-                        <li><a href="services.php" class="hover:text-blue-200">Services</a></li>
+                        <li><a href="services.php" class="hover:text-blue-200">Forms</a></li>
+                        <li><a href="#branch" class="hover:text-blue-200">Contact</a></li>
                     </ul>
                 </div>
                 <div>

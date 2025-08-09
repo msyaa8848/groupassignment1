@@ -1,76 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>UPSI - About</title>
-    <link rel="icon" href="https://bendahari.upsi.edu.my/wp-content/uploads/2020/09/cropped-upsi-logo-1-180x180.png" type="image/png"/>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        body {
-        font-family: 'Poppins', sans-serif;
-        scroll-behavior: smooth;
-        }
-
-        .header-bg {
-            background: linear-gradient(rgba(0, 50, 100, 0.9), rgba(0, 50, 100, 0.9)), 
-            url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
-            background-size: cover;
-            background-position: center;
-        }
-
-        .feedback-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UPSI - About</title>
+  <link rel="icon" href="https://bendahari.upsi.edu.my/wp-content/uploads/2020/09/cropped-upsi-logo-1-180x180.png" type="image/png"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .header-bg {
+      background: linear-gradient(rgba(0, 50, 100, 0.9), rgba(0, 50, 100, 0.9)), 
+      url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .feedback-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body class="bg-gray-50">
 
-    <!-- Header -->
-<header class="bg-white shadow-md sticky top-0 z-50">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-    <div class="flex items-center">
+      <div class="flex items-center">
         <img src="images/logo-bendahari_upsi.jpg" alt="UPSI Logo" class="h-12" />
         <span class="ml-3 text-xl font-semibold text-blue-800">Bursar Department</span>
-    </div>
-
-    <nav class="hidden md:block">
+      </div>
+      <nav class="hidden md:block">
         <ul class="flex space-x-8">
-        <li><a href="index.php" class="text-blue-800 hover:text-blue-600 font-medium">Home</a></li>
-        <li><a href="about.php" class="text-blue-800 font-medium border-b-2 border-blue-600">About</a></li>
-        <li><a href="announcement.php" class="block text-blue-800 hover:text-blue-600 font-medium">Announcements</a></li>
-        <li><a href="services.php" class="block text-blue-800 hover:text-blue-600 font-medium">Services</a></li>
-        <li><a href="feedback.php" class="block text-blue-800 hover:text-blue-600 font-medium">Feedback</a></li>
+          <li><a href="index.php" class="text-blue-800 hover:text-blue-600 font-medium">Home</a></li>
+          <li><a href="about.php" class="text-blue-800 font-medium border-b-2 border-blue-600">About</a></li>
         </ul>
-    </nav>
-
-    <button id="menuToggle" class="md:hidden text-blue-800 text-2xl" aria-label="Menu">
+      </nav>
+      <button id="menuToggle" class="md:hidden text-blue-800 text-2xl" aria-label="Menu">
         <i class="fas fa-bars"></i>
-    </button>
-
+      </button>
     </div>
         <!-- Mobile menu -->
     <nav id="mobileMenu" class="md:hidden hidden px-4 pb-4">
         <ul class="space-y-2">
             <li><a href="index.php" class="block text-blue-800 hover:text-blue-600 font-medium">Home</a></li>
-            <li><a href="feedback.php" class="block text-blue-800 hover:text-blue-600 font-medium border-b-2 border-blue-600">About</a></li>
             <li><a href="announcement.php" class="block text-blue-800 hover:text-blue-600 font-medium">Announcements</a></li>
             <li><a href="services.php" class="block text-blue-800 hover:text-blue-600 font-medium">Services</a></li>
-            <li><a href="feedback.php" class="block text-blue-800 hover:text-blue-600 font-medium">Feedback</a></li>
+            <li><a href="feedback.php" class="block text-blue-800 hover:text-blue-600 font-medium border-b-2 border-blue-600">Feedback</a></li>
         </ul>
     </nav>
-</header>
+  </header>
 
-    <!-- Page Header -->
-    <section class="header-bg text-white py-16 text-center">
-        <h1 class="text-3xl md:text-4xl font-bold mb-4">About Us</h1>
-        <p class="text-lg md:text-xl">Ensuring financial excellence and stewardship for the UPSI community.</p>
-    </section>
+  <!-- Page Header -->
+  <section class="header-bg text-white py-16 text-center">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4">About Us</h1>
+    <p class="text-lg md:text-xl">Ensuring financial excellence and stewardship for the UPSI community.</p>
+  </section>
 
-    <!-- About Section -->
+      <!-- About Section -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row items-center">

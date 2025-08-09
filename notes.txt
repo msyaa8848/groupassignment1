@@ -1,0 +1,295 @@
+// CONTACT
+
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Get in Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-4"></i>
+                            <div>
+                                <p class="font-medium">Address:</p>
+                                <p>Bursar Department<br>University of Malaya<br>50603 Kuala Lumpur, Malaysia</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone-alt mr-4"></i>
+                            <div>
+                                <p class="font-medium">Phone:</p>
+                                <p>+603-7967 3202 / 3203</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope mr-4"></i>
+                            <div>
+                                <p class="font-medium">Email:</p>
+                                <p>bursar@um.edu.my</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-clock mr-4"></i>
+                            <div>
+                                <p class="font-medium">Office Hours:</p>
+                                <p>Monday - Friday: 8:30am - 4:30pm<br>Closed on weekends and public holidays</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-white text-blue-800 p-3 rounded-full hover:bg-gray-200 transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="bg-white text-blue-800 p-3 rounded-full hover:bg-gray-200 transition duration-300"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="bg-white text-blue-800 p-3 rounded-full hover:bg-gray-200 transition duration-300"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="bg-white text-blue-800 p-3 rounded-full hover:bg-gray-200 transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-1">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 rounded bg-blue-700 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-blue-300">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-1">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 rounded bg-blue-700 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-blue-300">
+                        </div>
+                        <div>
+                            <label for="subject" class="block mb-1">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 rounded bg-blue-700 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-blue-300">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 rounded bg-blue-700 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-white focus:border-transparent placeholder-blue-300"></textarea>
+                        </div>
+                        <button type="submit" class="bg-white text-blue-800 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        // STAR RATING
+                            <div class="flex space-x-2">
+                        <input type="radio" name="rating" value="1" id="star1" class="hidden">
+                        <label for="star1" class="cursor-pointer text-yellow-500 text-2xl"><i class="fas fa-star"></i></label>
+                        <input type="radio" name="rating" value="2" id="star2" class="hidden">
+                        <label for="star2" class="cursor-pointer text-yellow-500 text-2xl"><i class="fas fa-star"></i></label>
+                        <input type="radio" name="rating" value="3" id="star3" class="hidden">
+                        <label for="star3" class="cursor-pointer text-yellow-500 text-2xl"><i class="fas fa-star"></i></label>
+                        <input type="radio" name="rating" value="4" id="star4" class="hidden">
+                        <label for="star4" class="cursor-pointer text-yellow-500 text-2xl"><i class="fas fa-star"></i></label>
+                        <input type="radio" name="rating" value="5" id="star5" class="hidden">
+                        <label for="star5" class="cursor-pointer text-yellow-500 text-2xl"><i class="fas fa-star"></i></label>
+                    </div>
+
+        
+
+            <!-- Coming Soon Section -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4 text-center">TITLE HEADING</h2>
+            <p class="text-center text-gray-600 mb-6">Please let us know how we can improve our services.</p>
+        </div>
+    </section>
+
+
+    // stay update banner
+
+            <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-md p-8 text-center">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Stay Updated</h2>
+                <p class="text-gray-600 mb-6">Subscribe to receive the latest announcements directly to your email or mobile device</p>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-envelope text-blue-600"></i>
+                            </div>
+                            <h3 class="font-semibold text-blue-800">Email Alerts</h3>
+                        </div>
+                        <div class="relative">
+                            <input type="email" placeholder="Your email address" class="w-full border border-gray-300 rounded-md px-3 py-2 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <i class="fas fa-at absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-sms text-blue-600"></i>
+                            </div>
+                            <h3 class="font-semibold text-blue-800">SMS Notifications</h3>
+                        </div>
+                        <div class="relative">
+                            <input type="tel" placeholder="Mobile number" class="w-full border border-gray-300 rounded-md px-3 py-2 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <i class="fas fa-mobile-alt absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition duration-300">
+                    Subscribe Now
+                </button>
+                
+                <p class="text-xs text-gray-500 mt-4">You can unsubscribe at any time. We respect your privacy.</p>
+            </div>
+        </div>
+
+        /// Banner having 2 
+        
+        
+        <div class="card text-start">
+            <img class="card-img-top" src="holder.js/100px180/" alt="Title" />
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Body</p>
+            </div>
+        </div>
+        
+        --- ehh ---
+
+            <!-- OLD -->
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Student Services -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-blue-800 mb-4 category-title">Student Services</h2>
+                <div class="flex flex-col space-y-4"> 
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Tuition Fee Payment</h3>
+                        <p class="text-gray-600">Manage your tuition fee payments easily through our online portal.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Convenient online payment options</li>
+                            <li>Payment plans available</li>
+                            <li>Secure transactions</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Pay Now</a>
+                    </div>
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Financial Aid</h3>
+                        <p class="text-gray-600">Apply for financial assistance to support your studies.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Scholarships and grants available</li>
+                            <li>Eligibility criteria apply</li>
+                            <li>Application deadlines must be met</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Staff Services -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-blue-800 mb-4 category-title">Staff Services</h2>
+                <div class="flex flex-col space-y-4">
+
+                    <div class="service-card p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-blue-800">Expense Reimbursement</h3>
+                        <p class="text-gray-600">Submit your expense claims for reimbursement.</p>
+                        <ul class="list-disc list-inside text-gray-600 mb-4">
+                            <li>Quick online submission</li>
+                            <li>Track the status of your claims</li>
+                            <li>Clear guidelines for eligible expenses</li>
+                        </ul>
+                        <a href="#" class="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Submit Claim</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vendor Services -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-xl font-semibold text-blue-800 mb-4 category-title">Vendor Services</h2>
+            </div>
+        </div>
+///
+Search
+///
+            <section class="bg-blue-50 py-12">
+        <div class="max-w-4xl mx-auto mb-16 search-container">
+            <h3 class="text-xl font-semibold text-um-blue mb-3">Need help finding a specific service?</h3>
+            <div class="relative">
+                <input type="text" placeholder="Search services..." class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-um-yellow focus:border-transparent pr-12">
+                <i class="fas fa-search absolute top-5 right-5 text-gray-400"></i>
+            </div>
+        </div>
+    </section>
+
+
+
+    //
+
+
+    
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-800 mb-12">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-question w-full text-left flex justify-between items-center focus:outline-none">
+                        <h3 class="text-xl font-semibold text-blue-800">When are tuition fees due?</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="mt-3 text-gray-600">Tuition fees are typically due two weeks before the start of each semester. Exact dates are published in the academic calendar and announced via email to all registered students.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-question w-full text-left flex justify-between items-center focus:outline-none">
+                        <h3 class="text-xl font-semibold text-blue-800">What payment methods are accepted?</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="mt-3 text-gray-600">We accept online payments via credit/debit cards (Visa, MasterCard), bank transfers, and FPX. Cash payments can be made at our office during working hours.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-question w-full text-left flex justify-between items-center focus:outline-none">
+                        <h3 class="text-xl font-semibold text-blue-800">How can I apply for financial aid?</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="mt-3 text-gray-600">Financial aid applications are available online through our portal. You'll need to submit the completed application form along with supporting documents (income statements, academic records, etc.) by the published deadline.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-question w-full text-left flex justify-between items-center focus:outline-none">
+                        <h3 class="text-xl font-semibold text-blue-800">What is the processing time for vendor payments?</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="mt-3 text-gray-600">Vendor payments are typically processed within 14 working days after receiving a complete and correct invoice. Delays may occur during peak periods or if additional verification is required.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="mb-4">
+                    <button class="faq-question w-full text-left flex justify-between items-center focus:outline-none">
+                        <h3 class="text-xl font-semibold text-blue-800">Where can I get a receipt for my payment?</h3>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p class="mt-3 text-gray-600">Receipts for online payments are automatically generated and emailed to you. For in-person payments, receipts are issued immediately. You can also download payment receipts from your student portal at any time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="py-16 bg-blue-800 text-white"> -->
+
+    </section>
